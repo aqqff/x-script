@@ -3,6 +3,7 @@ sudo dnf remove  colormgr darktable gimp dia entangle gcolor3 hugin scribus synf
 sudo dnf autoremove
 sudo dnf update
 sudo dnf upgrade
+sudo fedora-third-party enable
 sudo dnf install google-chrome-stable
 sudo dnf install snapd
 sudo dnf iwd
@@ -10,4 +11,3 @@ sudo dnf autoremove
 sudo dnf update
 sudo dnf upgrade
 sudo systemctl enable iwd
-sudo systemctl reboot -i
