@@ -1,12 +1,19 @@
-sudo dnf remove gnome-calculator gnome-calendar gnome-clocks gnome-contacts firefox gnome-maps gnome-photos gnome-weather libreoffice-* gnome-tour cheese gnome-text-editor gnome-system-monitor mediawriter gnome-connections totem eog evince simple-scan
+sudo dnf remove gnome-calculator gnome-calendar gnome-clocks gnome-contacts firefox gnome-maps gnome-photos gnome-weather libreoffice-* gnome-tour cheese gnome-text-editor gnome-system-monitor mediawriter gnome-connections totem eog evince simple-scan gnome-boxes
 sudo dnf remove  colormgr darktable gimp dia entangle gcolor3 hugin scribus synfigstudio xournalpp pitivi 
 sudo dnf autoremove
 sudo dnf update
 sudo dnf upgrade
-sudo fedora-third-party enable
+#sudo dnf install vim
 sudo dnf install snapd
-sudo dnf iwd
+#sudo dnf install google-chrome-stable
+sudo fedora-third-party enable
+hostnamectl hostname i 
+sudo cp -r /run/media/me/7A2812042811C055/Users/bakaa/OneDrive/Pictures/pictures ~/Pictures/
+sudo cp -r /run/media/me/7A2812042811C055/Users/bakaa/OneDrive/Pictures/wallpaper ~/Pictures/
+sudo cp -r /run/media/me/7A2812042811C055/Users/bakaa/OneDrive/Pictures/manga ~/Pictures/
+touch ~/.vimrc
 sudo dnf autoremove
 sudo dnf update
 sudo dnf upgrade
-sudo systemctl enable iwd
+
+
