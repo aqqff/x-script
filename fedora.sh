@@ -6,6 +6,7 @@ sudo dnf update
 sudo dnf upgrade
 #sudo dnf install vim
 #sudo dnf install snapd
+#sudo ln -s /var/lib/snapd/snap /snap
 #sudo dnf install google-chrome-stable
 #sudo fedora-third-party enable
 #hostnamectl hostname "name" 
